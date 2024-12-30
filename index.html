@@ -5,11 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
-    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="style/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
 </head>
 <body class="main-content">
     <header class="container header active" id="home">
@@ -17,7 +18,7 @@
             <div class="left-header">
                 <div class="h-shape"></div>
                 <div class="image">
-                    <img src="img/hero.png" alt="">
+                    <img src="itsme.jpg" alt="">
                 </div>
             </div>
             <div class="right-header">
@@ -362,7 +363,7 @@
                         <img src="brainquest_logo.jpeg" alt="">
                         <div class="blog-text">
                             <h4>
-                                <a href="index2.html">UI/UX at Brain Quest Consultancy and Training</a>
+                                <a href="uiux.html">UI/UX at Brain Quest Consultancy and Training</a>
                             </h4>
                             <p>
                                 Brain Quest Consultancy: UI/UX Internship - Master user-centered design 
@@ -370,6 +371,36 @@
                         </div>
                 
                     </div>
+                    <div class="blog">
+                        <img src="jawalogo.png" alt="">
+                        <div class="blog-text">
+                            <h4>
+                                <a href="jawa.html">Jawa Computer Center(RGYCSM)</a>
+                            </h4>
+                            <p>
+                                Advanced Diploma in Computer Programming: Learn C, C++, Java, SQL, and Build Real-world Projects.
+                        </div>
+                    </div>
+                        <div class="blog">
+                            <img src="anakar.jpg" alt="">
+                            <div class="blog-text">
+                                <h4>
+                                    <a href="school.html">Anaikar Oriental (Arabic) Higher Secondary School </a>
+                                </h4>
+                                <p>
+                                    Study with focus, challenge yourself, and compete—education is the key to your success!
+                            </div>
+                        </div>    
+                        <div class="blog">
+                            <img src="clg-logo.png" alt="">
+                            <div class="blog-text">
+                                <h4>
+                                    <a href="clg.html">C. Abdul Hakeem College of Engineering & Technology(CAHCET)</a>
+                                </h4>
+                                <p>
+                                    Pursuing a Bachelor's degree in Computer Science Engineering (2021-2025) at
+                                     C. Abdul Hakeem College, under Anna University.
+                        </div>
                 </div>
             </div>
         </section>
@@ -449,24 +480,26 @@
                         </div>
                     </div>
                     <div class="right-contact">
-                        <form action="" class="contact-form">
+
+                        <form action="https://script.google.com/macros/s/AKfycbyhXgqe_RgHz-V0MQeNXynuxYkfpfi5AKAT5x3h0OMrkhnmcpVYauz8TgxWZP4JnOjxyw/exec" method="POST">
                             <div class="input-control i-c-2">
-                                <input type="text" required placeholder="YOUR NAME">
-                                <input type="email" required placeholder="YOUR EMAIL">
+                                <input type="text" name="names-me" required placeholder="YOUR NAME">
+                                <input type="email" name="email" required placeholder="YOUR EMAIL">
                             </div>
                             <div class="input-control">
-                                <input type="text" required placeholder="ENTER SUBJECT">
+                                <input type="text" name="sub" required placeholder="ENTER SUBJECT">
                             </div>
                             <div class="input-control">
-                                <textarea name="" id="" cols="15" rows="8" placeholder="Message Here..."></textarea>
+                                <textarea name="messages" cols="15" rows="8" placeholder="Message Here..."></textarea>
                             </div>
                             <div class="submit-btn">
-                                <a href="#" class="main-btn">
-                                    <span class="btn-text">Submmit</span>
+                                <button type="submit" class="main-btn">
+                                    <span class="btn-text" style="color: black;">Submit</span>
                                     <span class="btn-icon"><i class="fas fa-paper-plane"></i></span>
-                                </a>
+                                </button>
                             </div>
                         </form>
+                        
                     </div>
                 </div>
             </div>
@@ -493,6 +526,9 @@
     <div class="theme-btn">
         <i class="fas fa-adjust"></i>
     </div>
-    <script src="app.js"></script>
+    
+    <script src="apps.js"></script>
+    
+    </script>
 </body>
 </html>
